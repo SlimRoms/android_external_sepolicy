@@ -1,3 +1,10 @@
+# code that are surrounded by "DOLBY..." are copyrighted and
+# licensed separately, as follows:
+#
+#  (C) 2014-2015 Dolby Laboratories, Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
 ##########################
 # property service keys
 #
@@ -65,3 +72,7 @@ ctl.                    u:object_r:ctl_default_prop:s0
 
 # NFC properties
 nfc.                    u:object_r:nfc_prop:s0
+
+DOLBY_START
+dolby.                  u:object_r:dolby_prop:s0
+# DOLBY_END
